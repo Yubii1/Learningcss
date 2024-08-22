@@ -1,0 +1,27 @@
+HTML
+tpyes of paths
+   absolute path- gives the absolue locaation of the file, i/e its starts from c(hard drive) to the location of the file
+                e.g locating a book called "Prepare for war" we will say the abolute oath is 
+  C:/user/senel/Documents/Book/RebeccaBrown/prepareforWar 
+  relative path- gives the location of the file from the current physical lication of the code lets say the code is stored in BOOK then the relative path to the file "prepare for war"
+   will be "RebeccaBrown/prepareforWar"   
+
+h1- main headings
+h2- sub headings
+h3- sub sub headings
+h4- 
+h5
+h6
+p - paragraph, long content
+a - hyperlink
+( <a href="" >content</a>)
+the specific attribute of the a tag that allows it to open websites are blank (opens on a new tab)
+ and parent(opens on the same)
+syntax:
+  target="_blank"
+ target="_parent"
+
+
+
+
+ 

@@ -1,0 +1,147 @@
+body{
+    background-color: rgb(0,0,0,0.1);
+}
+.bodyelements{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.line{
+    height: 0.2px;
+    width: 600px;
+    background-color: grey;
+    border: 1px solid grey;
+ }
+.imageroll{
+   height: 1000px;
+   width: 950px;
+    align-self: center;
+   justify-self: center;
+    background-color: rgb(0,0,0,0.7);
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: center;
+    flex-direction: column;
+}
+.header{
+    height: 70px;
+    width:600px;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 45px;
+}   
+.headertext{
+    color: gray;
+    font-size: 35px;
+    margin-top: -30px;
+    margin-bottom: 0px;
+}
+.pic1{
+    height: 250px;
+    width:600px;
+    border: 2px solid white;
+    background-image:url(images/moon4.jpeg);
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 25px;
+    margin-top:-50px
+}   
+.pic2{
+    height: 250px;
+    width:600px;
+    border: 2px solid white;
+    background-image:url(images/flower2.jpeg);
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 25px;
+}   
+.pic3{
+    height: 250px;
+    width:600px;
+    border: 2px solid white;
+    background-image:url(images/sky.jpeg);
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 25px;
+}   
+.pic1text{
+    color: white;
+    margin-top:150px;
+    margin-left:25px;
+    font-size: 35px;
+}
+.pic2text{
+    color: white;
+    margin-top:115px;
+    margin-left:25px;
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+.pic3text{
+    color: white;
+    margin-top: 155px;
+    margin-left:25px;
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+.smallcircle{
+    height:20px;
+    width:100px;
+    color:white;
+    border: 2px solid white;
+    border-radius: 100%;
+    text-align: center;
+    margin-top:-25px;
+    margin-left:20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+.smallcircletext{
+    margin-top: 15px;
+    margin-left: 2px;
+}
+.location1{
+    margin-left: 450px;
+    margin-top: -25px;
+    display: flex;
+    flex-direction: row;
+}  
+.location2{
+    margin-left: 430px;
+    margin-top: -25px;
+    display: flex;
+    flex-direction: row;
+}  
+.smallimage{
+   width: 25px;
+   height: 35px;
+  margin-top: 5px;
+}
+.smallimage2{
+    width: 20px;
+    height: 20px;
+   margin-top: 14px;
+   margin-left:10px;
+ }
+.place{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin-left:3px;
+}
+
+.location3{
+    margin-left: 379px;
+    margin-top: -80px;
+    display: flex;
+    flex-direction: row;
+}  
+
