@@ -1,0 +1,158 @@
+body{
+    background-color: rgba(0,0,0,0.1);
+}
+.bodyelements{
+    display: flex;
+    flex-direction: row;   
+}
+
+
+.navigationpanel{
+ width: 200px;
+ padding:10px;
+ background-color: white;
+ display: flex;
+ flex-direction: column;
+ 
+}
+#navigationhead{
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    margin-top: 10px;
+}
+#navigationhead>div{
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    background-image: url(../images/w.jpeg);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+#navigationhead1{
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+#navigationhead1>div{
+    background-color: white;
+    height: 30px;
+    width: 30px;
+   
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.image{
+    background-image: url(../images/w.jpeg);
+}
+
+#one{
+   margin-top: 20px;
+   display: flex;
+   flex-flow: row wrap;
+
+}
+#one>div{
+    width:50px;
+    height: 50px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    flex:2;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.headbar{
+    width: 960px;
+
+    height: 50px;
+    border: 2px solid salmon;
+}
+
+
+#container>div{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    margin:20px;
+    background-color: white;
+    
+    border-radius: 10px 10px 10px 0px;
+    padding:10px;
+    align-items: center;
+}
+
+.titletext{
+    background-color: silver;
+    width: 100%;
+    height: 100px;
+    border-radius: 0px 0px 80% 80%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.middletext{
+    width: 250px;
+    height: 100px;
+    margin-top: -10px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    
+}
+.submitbutton{
+    height: 30px;
+    padding: 7px;
+    width: 80px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+    border-radius: 10px;
+    justify-content: center;
+}
+#business_plan .titletext{
+  background-color: blue;
+}
+#business_plan .submitbutton{
+    background-color: blue;
+  }
+#premium_plan .titletext{
+    background-color: rgb(47, 255, 189);
+}
+#premium_plan .submitbutton{
+    background-color:  rgb(47, 255, 189);
+}
+#vip_plan .titletext{
+    background-color: red;
+}
+#vip_plan .submitbutton{
+    background-color: red;
+}
+.starpic{
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: -20px;
+
+}

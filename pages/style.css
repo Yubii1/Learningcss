@@ -1,0 +1,145 @@
+/* .bodyelements{
+    background-color: white;
+}
+.header, .footer{
+    position: fixed;
+    height:50px;
+    
+    width: 100%;
+    color:white;
+    background-color: black;
+    text-align: center;
+    padding:2px;
+    right: 0px;
+   */
+/* } */
+
+body{
+    background-color: white;
+}
+
+p{
+  
+    font-weight: 900;
+    color: white;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    /* margin-right: 20px; */
+}
+p:nth-child(1){
+    background-color: red;
+  z-index: 14;
+}
+p:nth-child(2){
+    background-color: green;
+   margin-top: 30px;
+   margin-left: 30px;
+   z-index: 13;
+}
+
+p:nth-child(3){
+    background-color:aqua;
+    margin-top: 60px;
+   margin-left: 60px;
+   z-index: 12;
+  
+}
+p:nth-child(4){
+    background-color:blue;
+    margin-top: 90px;
+   margin-left: 90px;
+   z-index: 11;
+  
+}
+p:nth-child(5){
+    background-color:rgb(182, 10, 185);
+    margin-top: 120px;
+   margin-left: 120px;
+   z-index: 10;
+  
+}
+p:nth-child(6){
+    background-color:burlywood;
+    margin-top: 150px;
+   margin-left: 150px;
+   z-index: 9;
+  
+}
+p:nth-child(7){
+    background-color: lightgreen;
+    margin-top: 180px;
+   margin-left: 180px;
+   z-index: 8;
+  
+}
+p:nth-child(8){
+    background-color:coral;
+    margin-top: 210px;
+   margin-left: 210px;
+   z-index: 7;
+  
+}
+p:nth-child(9){
+    background-color:lightpink;
+    margin-top: 240px;
+   margin-left: 240px;
+   z-index: 6;
+  
+}
+p:nth-child(10){
+    background-color:purple;
+    margin-top: 270px;
+   margin-left: 270px;
+   z-index: 5;
+  
+}
+p:nth-child(11){
+    background-color:antiquewhite;
+    margin-top: 300px;
+   margin-left: 300px;
+   z-index: 4;
+  
+}
+p:nth-child(12){
+    background-color:peachpuff;
+    margin-top: 330px;
+   margin-left: 330px;
+   z-index: 3;
+  
+}
+p:nth-child(13){
+    background-color:brown;
+    margin-top: 360px;
+   margin-left: 360px;
+   z-index: 2;
+  
+}
+p:nth-child(14){
+    background-color:yellow;
+    margin-top: 390px;
+   margin-left: 390px;
+   z-index: 1;
+  
+}
+
+/* p:nth-child(4){
+    background-color: aqua;
+    float: left
+} */
+
+/* .footer{
+    bottom: 0;
+}
+.header{
+    top:0;
+}
+.headertext{
+    background-color: rgba(0,0,0,0.1);
+    top: 80px;
+    height: 2504px;
+    position: absolute;
+    left: 0px;
+    width: 100%;
+
+} */

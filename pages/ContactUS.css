@@ -6,6 +6,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+   
 }
 .line{
     height: 0.2px;
@@ -43,7 +44,7 @@ body{
     height: 250px;
     width:600px;
     border: 2px solid white;
-    background-image:url(images/moon4.jpeg);
+    background-image:url(../images/moon4.jpeg);
     border-radius: 30px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -54,7 +55,7 @@ body{
     height: 250px;
     width:600px;
     border: 2px solid white;
-    background-image:url(images/flower2.jpeg);
+    background-image:url(../images/flower2.jpeg);
     border-radius: 30px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -64,7 +65,7 @@ body{
     height: 250px;
     width:600px;
     border: 2px solid white;
-    background-image:url(images/sky.jpeg);
+    background-image:url(../images/sky.jpeg);
     border-radius: 30px;
     background-repeat: no-repeat;
     background-size: cover;

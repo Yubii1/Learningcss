@@ -1,0 +1,39 @@
+#container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+   
+}
+#container div{
+    height: 100px;
+    width: 100px;
+    padding: 10px 20px;
+
+    
+}
+#one{
+    background-color: dodgerblue;
+    order:6
+}
+
+#two{
+    background-color:brown;
+    order:5
+}
+#three{
+    background-color:aqua;
+    order:6
+}
+#four{
+    background-color: green;
+    order:3
+}
+#five{
+    background-color: gold;
+    order:2;
+}
+#six{
+    background-color: purple;
+    order:1
+}
